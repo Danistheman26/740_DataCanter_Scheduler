@@ -1,0 +1,15 @@
+This whole project is just written in python so it should be fairly easy to run.
+I am running on window (though I think this can run on linux as well if needed) with python 3.9
+
+To install dependencies, use command: pip install -r Requirements.txt
+
+This should install all libraries needed. Because this is an reinforcement learning project, I needed
+tensorflow. If tensorflow is giving issues with installation you might need to contact me as it needs a
+c++ compiler visible. If running on windows, you might need to install one, otherwise I have not had any
+issue with tensorflow on linux.
+
+After all dependencies installed, to simulate just run: python3 main.py
+
+You can also change the Configs.py file to test out different configurations such as changing the number
+of job generators, the time spent training, weather to use RL or random scheduler. The config option are
+described in the file itself.
